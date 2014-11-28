@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="orange">#ff9d21</color>
+    <color name="green">#10a050</color>
+
+    <style name="RickTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+    </style>
+
+    <style name="GreenText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="AppEditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/GreenText</item>
+    </style>
+
+    <style name="AppTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/GreenText</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar_bg</item>
+    </style>
+</resources>
+
